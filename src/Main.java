@@ -10,7 +10,7 @@ public class Main {
     System.out.println(list.getNode(3).getNumber().getNum());
     list.insertToIndex(20,3);
     list.display();
-    list.deleteFirst();
+    list.deleteAtIndex(2);
     list.display();
     }
 }

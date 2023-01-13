@@ -75,10 +75,37 @@ public class DoublyLinkedList {
         selectedNode.next=null;
         size--;
     }
-//    public void deleteLast()
-//    {
-//
-//    }
+    public void deleteLast()
+    {
+        NumberNode selectedNode = tail;
+        tail=tail.previous;
+        tail.next=null;
+        selectedNode.previous=null;
+        size--;
+    }
+    public void deleteAtIndex(int index)
+    {
+        if(index ==0)
+        {
+            deleteFirst();
+            size--;
+            return;
+        }
+        if(index==size)
+        {
+            deleteLast();
+            size--;
+            return;
+        }
+        NumberNode toDelete = getNode(index);
+        NumberNode nextNode = getNode(index+1);
+        NumberNode previousNode = getNode(index - 1);
+        previousNode.next=nextNode;
+        nextNode.previous=previousNode;
+        toDelete.next=null;
+        toDelete.previous=null;
+        size --;
+    }
     public void display()
     {
         NumberNode tempNode = head;

@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4077e154-8dea-4386-8249-2aeeb1758dca" name="Changes" comment="Version 2: updated with display">
+    <list default="true" id="4077e154-8dea-4386-8249-2aeeb1758dca" name="Changes" comment="Version 2: updated with : addToBack, addToIndex, goToNode, deleteFirst">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DoublyLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DoublyLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -22,13 +22,19 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -75,8 +81,26 @@
       <option name="project" value="LOCAL" />
       <updated>1673600928451</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version 2: updated with : addToBack, addToIndex, goToNode, deleteFirst">
+      <created>1673615661097</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1673615661098</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -91,7 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 2: updated with display" />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 2: updated with display" />
+    <MESSAGE value="Version 2: updated with : addToBack, addToIndex, goToNode, deleteFirst" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 2: updated with : addToBack, addToIndex, goToNode, deleteFirst" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
